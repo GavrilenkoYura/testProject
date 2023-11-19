@@ -28,4 +28,5 @@ with open('data.csv') as file:
 
     # Save the Excel workbook as data.xlsx
     book.save('data.xlsx')
+    # Close file
     book.close()
